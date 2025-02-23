@@ -1,4 +1,4 @@
-from count_words import count_words
+from stats import count_words, count_characters
 
 open_to_file_path = "books/frankenstein.txt"
 
