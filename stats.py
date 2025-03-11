@@ -1,4 +1,4 @@
-def count_words(file_content):
+def get_num_words(file_content):
     book_words = file_content.split()
     word_count = len(book_words) # split accepts string and turn it intro string
 
@@ -22,7 +22,5 @@ def count_characters(file_content):
 
     return sorted_dict
 
-
-result = count_characters("AWDAWDAJWDADA DAWDAW awdawzzz ")
-
-print(result)
+def get_book_text(file):
+    return file.read()
